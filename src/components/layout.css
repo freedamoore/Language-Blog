@@ -1,4 +1,40 @@
-html {
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+
+:root{
+  --primary-color: #54EFC0;
+  --secondary-color: #8930e8;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+ html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: 'Josefin Sans', cursive;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #777;
+  box-sizing: border-box;
+}
+
+h1{
+  color: var(--primary-color);
+}
+
+h3, h4{
+  color: var(--secondary-color);
+}
+
+/* html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
@@ -619,4 +655,4 @@ pre tt:after {
   html {
     font-size: 100%;
   }
-}
+} */
