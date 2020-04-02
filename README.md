@@ -1,4 +1,4 @@
-#Blog Project built using the Gatsby default starter boilerplate.
+# Blog Project built using the Gatsby default starter boilerplate.
 
 ## Work In Progress
 
